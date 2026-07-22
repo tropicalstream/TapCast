@@ -1,0 +1,22 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Personal podcast subscription exports — never belongs in the repo.
+*.opml
+PocketCasts.opml
+
+# Secrets, just in case one ever lands here.
+*.jks
+*.keystore
+*.pem
+*.env
+fish_key.txt
